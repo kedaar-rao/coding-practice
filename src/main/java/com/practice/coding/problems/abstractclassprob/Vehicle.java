@@ -4,7 +4,7 @@ public abstract class Vehicle {
     int speed;
 
     Vehicle() {
-        speed = setSpeed(); // Dangerous call
+        speed = setSpeed(); // Dangerous practice
     }
 
     abstract int setSpeed();

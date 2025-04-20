@@ -6,4 +6,8 @@ public class Dog extends Animal {
     public Dog() {
         super(); // this is allowed even though Animal's constructor has protected access modifier
     }
+
+//    public Dog(String msg) {
+//        super(msg);
+//    }
 }
